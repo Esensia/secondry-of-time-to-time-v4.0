@@ -1,0 +1,10 @@
+import time
+
+start = input("Нажмите Enter, чтобы начать секундомер: ")
+start_time = time.time()
+
+stop = input("Нажмите Enter, чтобы остановить секундомер: ")
+stop_time = time.time()
+
+elapsed_time = stop_time - start_time
+print(f"Прошло {elapsed_time:.2f} секунд")
